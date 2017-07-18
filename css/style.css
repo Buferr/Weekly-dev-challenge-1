@@ -4,7 +4,7 @@ body
 	font-size: 16px;
 	padding: 0;
 	margin: 0;
-	background-image: url(img/back.jpg);
+	background-image: url(../img/back.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 
@@ -113,7 +113,7 @@ input[type="checkbox"]
 }
 input:checked + label
  {
- 	background: url(img/checked.svg) no-repeat;
+ 	background: url(../img/checked.svg) no-repeat;
  	background-position: 0 center;
  }
 textarea
@@ -127,7 +127,7 @@ label
 	font-weight: 300;
 	line-height: 27px;
  	display: inline-block;
- 	background: url("img/checkbox.svg") no-repeat;
+ 	background: url("../img/checkbox.svg") no-repeat;
  	background-position: 0 center;
  	padding-left: 2rem;
 	cursor: pointer;
@@ -188,23 +188,23 @@ input.lbuttons
 }
 input[name="username"] 
 {
-	background-image: url(img/user.svg), url(img/line.svg);
+	background-image: url(../img/user.svg), url(../img/line.svg);
 }
 input[type="password"]
 {
-	background-image: url(img/pass.svg), url(img/line.svg);
+	background-image: url(../img/pass.svg), url(../img/line.svg);
 }
 input[name="email"]
 {
-	background-image: url(img/email.svg), url(img/line.svg);
+	background-image: url(../img/email.svg), url(../img/line.svg);
 }
 input[name="phone"]
 {
-	background-image: url(img/phone.svg), url(img/line.svg);
+	background-image: url(../img/phone.svg), url(../img/line.svg);
 }
 select
 {
-	background-image: url(img/location.svg), url(img/line.svg);
+	background-image: url(../img/location.svg), url(../img/line.svg);
 }
 *::placeholder
 {
