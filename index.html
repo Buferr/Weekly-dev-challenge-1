@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Weekly dev challenge 1</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="font/font.css">
+</head>
+<body>
+	<header class="header"><img src="img/logou.svg" alt="masteralb logo"></header>
+	<div class="container">
+		<!-- --------------------Register form--------------------- -->
+		<section class="firstcol">
+			<header class="formheader boldtext">Register Form</header>
+			<div class="shadow">
+				<form action="post">
+					<input type="text" name="username" class="field" placeholder="Username">
+					<input type="password" name="password" class="field" placeholder="Password">
+					<input type="password" name="confrim-password" class="field" placeholder="Confrim Password">
+					<input type="email" name="email" class="field" placeholder="Email">
+					<select placeholder="Your location" name="location" id="" class="field">
+						<option value="loc">Your location</option>
+						<option value="austria">Austria</option>
+						<option value="bulgaria">Bulgaria</option>
+						<option value="croatia">Croatia</option>
+						<option value="france">France</option>
+						<option value="spain">Spain</option>
+					</select>
+					<div class="inputs checklabel">
+						<input type="checkbox" name="terms" id="terms">
+						<label for="terms">I have read and accept the terms of use.</label>
+					</div>
+					<input type="submit" value="Sing up" class="longbutton boldtext sendbutton">
+				</form>
+			</div>
+		</section>
+		<!-- ---------------------Send Email----------------------- -->
+		<section class="firstcol">
+			<header class="formheader boldtext">Send Email</header>
+			<div class="shadow">
+				<form action="post">
+					<input type="text" name="username" class="field" placeholder="Your Name">
+					<input type="email" name="email" class="field" placeholder="Your Email">
+					<textarea name="message" id="" placeholder="Type your message..."></textarea>
+					<div class="inputs checklabel"><input type="checkbox" id="sendcopy"><label for="sendcopy">Send and copy to my Email</label></div>
+					<input type="submit" value="Send Email" class="longbutton boldtext sendbutton">
+				</form>
+			</div>
+		</section>
+		<!-- --------------------Sing in Form---------------------- -->
+		<section class="seccol">
+			<header class="formheader boldtext">Sign In Form</header>
+			<div class="shadow">
+				<form action="">
+					<input type="text" name="username" class="field" placeholder="Username">
+					<input type="password" name="password" class="field" placeholder="Password">
+					<div class="inputs">
+						<div class="checklabel"><input type="checkbox" name="remember" id="remember"><label for="remember">Remember me</label></div>
+						<input type="submit" value="Sing In" class="boldtext sendbutton">
+					</div>
+				</form>
+			</div>
+		</section>
+		<!-- ---------------------Recover Form--------------------- -->
+		<section class="seccol">
+			<header class="formheader boldtext">Recover Form</header>
+			<div class="shadow">
+				<form action="">
+					<input type="email" name="email" class="field" placeholder="Eneter your Email">
+					<input type="text" name="phone" class="field" placeholder="Enter your Phone number">
+					<div class="inputs">
+					<input type="submit" value="Send" class="lbuttons boldtext sendbutton">
+					<input type="button" value="Done" class="lbuttons boldtext donebutton">
+					</div>
+				</form>
+			</div>
+		</section>
+		<!-- --------------------Sucscribe Form-------------------- -->
+		<section class="seccol">
+			<header class="formheader boldtext">Subscribe Form</header>
+			<div class="shadow">
+				<form action="">
+					<input type="email" name="email" class="field" placeholder="Enter your Email">
+					<div class="inputs"><input type="submit" value="Subscribe" class="lbuttons boldtext sendbutton"><input type="button" value="No, Thanks" class="lbuttons boldtext redbutton"></div>
+				</form>
+			</div>
+		</section>
+		<!-- ---------------------Footer---------------------- -->
+		<footer class="footer"><img src="img/logod.svg" alt="masteralb logo"></footer>
+	</div>
+</html>
